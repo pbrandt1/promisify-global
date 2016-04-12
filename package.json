@@ -1,0 +1,19 @@
+{
+  "name": "promisify-global",
+  "version": "1.0.0",
+  "description": "adds .promise to Function.prototype so you can always turn callback-based functions into promise-based functions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Peter Brandt <peter.m.brandt@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "promisify-node": "^0.4.0"
+  },
+  "devDependencies": {
+    "co": "^4.6.0",
+    "mocha": "^2.4.5",
+    "should": "^8.3.0"
+  }
+}
